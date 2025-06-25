@@ -139,7 +139,7 @@ curl http://localhost:3001/api/stop-simulation
 * Node.js (versão 18.x ou superior)
 * Python (versão 3.9 ou superior)
 * npm e pip instalados
-* Dataset XJTU-SY baixado e descompactado; O download pode ser feito a partir do repositório oficial: **[XJTU-SY Bearing Datasets](https://github.com/WangBiaoXJTU/xjtu-sy-bearing-datasets)**.
+* Dataset XJTU-SY baixado e descompactado; O download pode ser feito a partir do repositório oficial: **[XJTU-SY Bearing Datasets](https://github.com/WangBiaoXJTU/xjtu-sy-bearing-datasets)**
 
 ### Passos
 
@@ -147,7 +147,7 @@ curl http://localhost:3001/api/stop-simulation
 
    ```bash
    git clone https://github.com/OrlandoFon/Backend_TCCRolamentos
-   cd Backend_TCCRolamentos/backend
+   cd Backend_TCCRolamentos/
    ```
 
 2. **Configuração do Motor Python**:
