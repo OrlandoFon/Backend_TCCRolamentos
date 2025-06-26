@@ -18,7 +18,13 @@ class SimulationService extends EventEmitter {
       throw error;
     }
 
-    const scriptPath = path.join(__dirname, "..", "..", "python", "main.py");
+    const scriptPath = path.join(
+      __dirname,
+      "..",
+      "..",
+      "python-engine",
+      "main.py",
+    );
     const args = [
       scriptPath,
       bearingName,
